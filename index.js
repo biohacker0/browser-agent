@@ -19,7 +19,7 @@ if (!fs.existsSync(screenshotsDir)) fs.mkdirSync(screenshotsDir, { recursive: tr
 
 class UniversalBrowserAgent {
   constructor(options = {}) {
-    this.userDataDir = options.userDataDir || "C:\\Users\\tanul\\AppData\\Local\\Google\\Chrome\\User Data";
+    this.userDataDir = options.userDataDir || "C:\\Users\\user\\AppData\\Local\\Google\\Chrome\\User Data";
     this.chromePath = options.chromePath || "C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe";
     this.browser = null;
     this.page = null;
